@@ -1,0 +1,2 @@
+C:\Users\narut\Documents\GitHub\SimplestClient\SimplestClient\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\narut\Documents\GitHub\SimplestClient\SimplestClient\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
