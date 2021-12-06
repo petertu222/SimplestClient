@@ -8,6 +8,8 @@ public class GameSystemManager : MonoBehaviour
     GameObject inputFieldUsername, inputFieldPassword, buttonSubmit, toggleLogin, toggleCreate;
 
     GameObject networkedClient;
+
+    GameObject findGameSessionButton, placeHolderGameButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class GameSystemManager : MonoBehaviour
                 toggleCreate = go;
             else if (go.name == "NetworkedClient")
                 networkedClient = go;
+
 
         }
 
@@ -60,6 +63,15 @@ public class GameSystemManager : MonoBehaviour
     public void ToggleLoginValueChanged(bool newValue)
     {
         toggleLogin.GetComponent<Toggle>().SetIsOnWithoutNotify(!newValue);
+
+    }
+    private void FindGameSessionButtonPressed()
+    {
+
+    }
+
+    private void PlaceHolderGameButtonPressed()
+    {
 
     }
 }
